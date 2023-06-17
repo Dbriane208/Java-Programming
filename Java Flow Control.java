@@ -1,6 +1,9 @@
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 
+// UsingIf, If-else, If -else - If statements
+// A simpe grading system using if statements
+
 class Grades {
 
     public static void main (String[]args){
@@ -33,6 +36,8 @@ class Grades {
     }
 }
 
+// Checking for even numbers
+
 class EvenOrOddNum {
     public static void main (String[]args){
  
@@ -51,6 +56,8 @@ class EvenOrOddNum {
     }
 }
 
+// Checking for leap year
+
 class LeapYear {
     public static void main (String[]args){
 
@@ -68,6 +75,8 @@ class LeapYear {
 
     }
 }
+
+// Checking for prime numbers
 
  class PrimeNumbers {
 
@@ -96,6 +105,8 @@ class LeapYear {
     }
 
 }
+
+// Checking for largest numbers for a given Input
 
 class LargestNum {
      
@@ -135,4 +146,128 @@ class LargestNum {
     }
 }
 
+// A simple grading system using Switch case 
 
+class SwitchCase {
+
+    public static void main (String[]args){
+
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter your score :");
+        int score = input.nextInt();
+
+        char grade;
+
+
+        switch (score){
+
+            case 81:
+            grade = 'A';
+            break;
+
+            case 70:
+            grade = 'B';
+            break;
+
+            case 60:
+            grade = 'C';
+            break;
+
+            case 50:
+            grade = 'D';
+            break;
+
+            case 40:
+            grade = 'E';
+            break;
+
+            case 30:
+            grade = 'F';
+            break;
+
+            default:
+            grade = 'Z';
+            break;
+        }
+
+        System.out.println("My score is : " + score + " and my grade is : " + grade );
+
+        input.close();
+
+    }
+
+}
+
+// Printing a triangle and a square of stars
+
+class forLoop {
+
+    public static void main (String []args){
+
+        for( int i = 0; i < 5; i++){
+
+            for (int j = 0; j < 5; j++){
+                
+                System.out.print("*");
+            }
+               System.out.println();
+        }
+
+        for( int i = 0; i < 5; i++){
+
+            for (int j = 0; j < i; j++){
+                
+                System.out.print("*");
+            }
+               System.out.println();
+        }
+
+    }
+}
+
+// Calculating the sum of elements in an integer
+
+class sumArrayInteger {
+
+    public static void main (String[]args){
+
+        int [] evenNums = {2,4,6,8,10};
+        int sum = 0;
+
+        for(int evenNum : evenNums){
+            sum += evenNum;
+        }
+
+        System.out.println(sum);
+    }
+}
+
+// Comparing two numbers
+
+class CompareNums{
+
+    public static void main (String[]args){
+
+        String firstNum = JOptionPane.showInputDialog("Enter first number : ");
+        int num1 = Integer.parseInt(firstNum);
+
+        String secondNum = JOptionPane.showInputDialog("Enter second number : ");
+        int num2 = Integer.parseInt(secondNum);
+
+        while(num1 > num2){
+
+            System.out.println("The largest Number between " + num1 + " and " + num2 + " is " + num1);
+            break;
+
+        }
+
+         while(num2 > num1){
+
+            System.out.println("The largest Number between " + num1 + " and " + num2 + " is " + num2);
+            break;
+
+        }
+
+    }
+}
