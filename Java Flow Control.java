@@ -14,7 +14,6 @@ class Grades {
         if(input >= 80 && input <= 100 ){
             System.out.println(input + " is " +" Grade A ");
         }
-
         else if( input <= 79 && input >= 75){
             System.out.println(input + " is " + " Grade A- ");
         }
@@ -243,7 +242,7 @@ class sumArrayInteger {
     }
 }
 
-// Comparing two numbers
+// Comparing two numbers using the while loop
 
 class CompareNums{
 
@@ -271,3 +270,4 @@ class CompareNums{
 
     }
 }
+
