@@ -45,7 +45,7 @@ class Array2D {
         
         for(int[] innerArray : matrix){
             for(int data : innerArray){
-                System.out.println(" The Array elements are : " + data);
+                System.out.println(" The Array 2D elements are : " + data);
             }
         }
            System.out.println();
@@ -80,7 +80,7 @@ class Array3D {
         for(int[][] Array2D : matrix){
             for(int [] Array1D : Array2D){
                 for(int data : Array1D){
-                System.out.println(" The Array elements are : " + data);
+                System.out.println(" The Array 3D elements are : " + data);
             }
             }
             
