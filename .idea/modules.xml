@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java-Programming.iml" filepath="$PROJECT_DIR$/Java-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student and Course Registration GUI/Student and Course Registration GUI.iml" filepath="$PROJECT_DIR$/Student and Course Registration GUI/Student and Course Registration GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Table Multiplication/Table Multiplication.iml" filepath="$PROJECT_DIR$/Table Multiplication/Table Multiplication.iml" />
     </modules>
   </component>

@@ -12,7 +12,7 @@ public class Main {
       System.out.println("Enter the number of columns : ");
       int columns = input.nextInt();
 
-      for(int i = 1; i <= rows; i++){
+      for(int i = 1; i <= rows; ++i){
           System.out.print(i);
         for(int j = 1 ; j <= columns; j++){
           System.out.print(i*j + "");
