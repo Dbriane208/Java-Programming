@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GradingApp</string>
+    <string name="name">Welcome to GradingApp</string>
+    <string name="userName">Enter your Name</string>
+</resources>
