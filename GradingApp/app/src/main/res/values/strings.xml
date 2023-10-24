@@ -2,4 +2,25 @@
     <string name="app_name">GradingApp</string>
     <string name="name">Welcome to GradingApp</string>
     <string name="userName">Enter your Name</string>
+    <string name="next">Next</string>
+    <string name="welcome">Welcome</string>
+    <string name="txtUserName">Daniel</string>
+    <string name="introduction">Determine the grades of your score here.</string>
+    <string name="calculate">Calculate Grade</string>
+    <string name="mobile">Mobile development</string>
+    <string name="score">Score</string>
+    <string name="pm">Project management</string>
+    <string name="rm">Research methods</string>
+    <string name="ms">Multimedia systems</string>
+    <string name="mis">Management information \nsystems</string>
+    <string name="results">Final Results</string>
+    <string name="gradeTxt">Grade</string>
+    <string name="mis1">Management Info. \nsystems</string>
+    <string name="marks">0</string>
+    <string name="grade">E</string>
+    <string name="back">Back</string>
+    <string name="exit">Exit</string>
+    <string name="total">Total Score</string>
+    <string name="mean">Mean Grade</string>
+    <string name="resultsDesc">Below are the graded results of your examinations</string>
 </resources>
