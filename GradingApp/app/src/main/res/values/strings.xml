@@ -2,7 +2,7 @@
     <string name="app_name">GradingApp</string>
     <string name="name">Welcome to GradingApp</string>
     <string name="userName">Enter your Name</string>
-    <string name="next">Next</string>
+    <string name="next">Start</string>
     <string name="welcome">Welcome</string>
     <string name="txtUserName">Daniel</string>
     <string name="introduction">Determine the grades of your score here.</string>

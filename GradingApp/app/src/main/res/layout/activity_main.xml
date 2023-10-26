@@ -37,20 +37,19 @@
                 android:textSize="19sp"
                 android:textStyle="bold" />
 
-
         </LinearLayout>
 
         <EditText
-            android:id="@+id/edTxt"
+            android:id="@+id/userName"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/edit_background"
             android:hint="@string/userName"
+            android:paddingStart="10dp"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            android:paddingStart="55dp"
             android:textColorHint="#455A64"
             tools:ignore="RtlSymmetry" />
 
@@ -68,6 +67,7 @@
         android:background="#4d545f"
         app:layout_constraintTop_toBottomOf="@id/loginCard"
         app:layout_constraintStart_toStartOf="@id/loginCard"
+        app:layout_constraintEnd_toEndOf="@id/loginCard"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 
