@@ -51,7 +51,9 @@ public class ResultsActivity extends AppCompatActivity {
             mobileGrade.setText("C");
         } else if (mobileUnit >= 40 && mobileUnit < 50) {
             mobileGrade.setText("D");
-        } else {
+        } else if(mobileUnit > 100){
+            mobileGrade.setText("Error");
+        }else{
             mobileGrade.setText("E");
         }
 
@@ -67,7 +69,9 @@ public class ResultsActivity extends AppCompatActivity {
             pmGrade.setText("C");
         } else if (pmUnit >= 40 && pmUnit < 50) {
             pmGrade.setText("D");
-        } else {
+        } else if (pmUnit > 100){
+            pmGrade.setText("Error");
+        } else{
             pmGrade.setText("E");
         }
 
@@ -83,7 +87,9 @@ public class ResultsActivity extends AppCompatActivity {
             rmGrade.setText("C");
         } else if (rmUnit >= 40 && rmUnit < 50) {
             rmGrade.setText("D");
-        } else {
+        } else if (rmUnit > 100){
+            rmGrade.setText("Error");
+        } else{
             rmGrade.setText("E");
         }
 
@@ -99,7 +105,9 @@ public class ResultsActivity extends AppCompatActivity {
             msGrade.setText("C");
         } else if (msUnit >= 40 && msUnit < 50) {
             msGrade.setText("D");
-        } else {
+        } else if (msUnit > 100){
+            msGrade.setText("Error");
+        } else{
             msGrade.setText("E");
         }
 
@@ -115,7 +123,9 @@ public class ResultsActivity extends AppCompatActivity {
             misGrade.setText("C");
         } else if (misUnit >= 40 && misUnit < 50) {
             misGrade.setText("D");
-        } else {
+        } else if (misUnit > 100){
+            misGrade.setText("Error");
+        } else{
             misGrade.setText("E");
         }
 
@@ -138,7 +148,9 @@ public class ResultsActivity extends AppCompatActivity {
             meanGrade.setText("C");
         } else if (meanScore >= 40 && meanScore < 50) {
             meanGrade.setText("D");
-        } else {
+        } else if(meanScore > 100) {
+            meanGrade.setText("Error");
+        } else{
             meanGrade.setText("E");
         }
 
