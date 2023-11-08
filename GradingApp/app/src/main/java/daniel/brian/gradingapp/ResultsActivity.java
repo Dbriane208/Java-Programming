@@ -148,7 +148,7 @@ public class ResultsActivity extends AppCompatActivity {
             meanGrade.setText("C");
         } else if (meanScore >= 40 && meanScore < 50) {
             meanGrade.setText("D");
-        } else if(meanScore > 100) {
+        } else if(meanScore > 500) {
             meanGrade.setText("Error");
         } else{
             meanGrade.setText("E");
