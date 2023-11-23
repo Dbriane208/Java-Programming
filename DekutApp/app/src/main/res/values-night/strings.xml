@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account login</string>
+    <string name="register_as_doctor">Register as Doctor</string>
+    <string name="password">password</string>
+    <string name="email_address">email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="full_name">full name</string>
+    <string name="create_an_account">Create an account</string>
+</resources>

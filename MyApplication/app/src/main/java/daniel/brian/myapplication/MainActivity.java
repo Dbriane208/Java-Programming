@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
             Button login = findViewById(R.id.login);
             DBHelper DB = new DBHelper(this);
 
-
             Register.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                    else{
                        if(pass.equals(repass)){
                            Boolean checkuser = DB.checkUsername(user);
-                           if(checkuser ==false){
+                           if(checkuser == false){
                                Boolean insert = DB.insertData(user,pass);
                                if(insert == true){
                                    Toast.makeText(MainActivity.this,"Registered successfully",Toast.LENGTH_SHORT).show();

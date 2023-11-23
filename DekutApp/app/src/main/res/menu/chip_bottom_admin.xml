@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/nav_admin_users"
+        android:title="Home"
+        app:cnb_textColor="@color/black"
+        app:cnb_iconColor="@color/black"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/nav_admin_patients"
+        android:title="Patients"
+        app:cnb_textColor="@color/black"
+        app:cnb_iconColor="@color/black"
+        android:icon="@drawable/hospital"/>
+
+    <item
+        android:id="@+id/nav_admin_doctors"
+        android:title="Doctors"
+        app:cnb_textColor="@color/black"
+        app:cnb_iconColor="@color/black"
+        android:icon="@drawable/name"/>
+
+    <item
+        android:id="@+id/nav_admin_logout"
+        android:title="Logout"
+        app:cnb_textColor="@color/black"
+        app:cnb_iconColor="@color/black"
+        android:icon="@drawable/logout"/>
+</menu>

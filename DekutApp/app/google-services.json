@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17401974246",
+    "project_id": "attachmentapp-a4b6f",
+    "storage_bucket": "attachmentapp-a4b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17401974246:android:cec3ad87bba98f58ccda27",
+        "android_client_info": {
+          "package_name": "com.example.dekutapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcspUaJIE9ySbK47mPobBJ-5a2pRh814Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
