@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -16,10 +17,12 @@
         android:theme="@style/Theme.DekutApp"
         tools:replace="android:icon"
         tools:targetApi="31">
-
-        <activity android:name=".main.StudentActivity"
-            android:exported="false"/>
-
+        <activity
+            android:name=".main.DownloadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.StudentActivity"
+            android:exported="false" />
         <activity
             android:name=".auth.LoginActivity"
             android:exported="false" />
@@ -42,14 +45,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Lecturer.LecturerDashboardActivity"
+            android:name=".components.LecturerDashboardActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity> <!-- patient files -->
         <activity
-            android:name=".Student.StudentDashboardActivity"
+            android:name=".components.StudentDashboardActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

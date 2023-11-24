@@ -1,9 +1,11 @@
 package com.example.dekutapp.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -11,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.dekutapp.R;
 import com.example.dekutapp.databinding.StudentsLayoutBinding;
+import com.example.dekutapp.main.DownloadActivity;
 
 import java.util.ArrayList;
 
@@ -49,6 +52,13 @@ public class StudentsAdapter extends RecyclerView.Adapter<StudentsAdapter.Studen
         holder.studentsLayoutBinding.course.setText(String.valueOf(Course.get(position)));
         holder.studentsLayoutBinding.department.setText(String.valueOf(Department.get(position)));
         holder.studentsLayoutBinding.email.setText(String.valueOf(Email.get(position)));
+
+        //setting the onclickListener
+        holder.studentsLayoutBinding.document.setOnClickListener(view -> {
+            Intent intent = new Intent(context, DownloadActivity.class);
+            intent.putExtra("imageData",imageData);
+            context.startActivity(intent);
+        });
 
     }
 

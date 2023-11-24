@@ -1,4 +1,4 @@
-package com.example.dekutapp.Student;
+package com.example.dekutapp.components;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -80,29 +80,4 @@ public class StudentDashboardActivity extends AppCompatActivity {
             studentsAdapter.notifyDataSetChanged();
         }
     }
-
-
-//    private void displayAllLecturers() {
-//        Cursor cursor = lecturersDB.getAvailableLecturers();
-//        if(cursor.getCount() == 0){
-//            Toast.makeText(this,"No lecturers Available",Toast.LENGTH_SHORT).show();
-//        }else{
-//            Name.clear();
-//            Course.clear();
-//            Department.clear();
-//            Email.clear();
-//            Image.clear();
-//
-//            while(cursor.moveToNext()){
-//                Name.add(cursor.getString(0));
-//                Course.add(cursor.getString(1));
-//                Department.add(cursor.getString(2));
-//                Email.add(cursor.getString(3));
-//                Image.add(cursor.getBlob(4));
-//            }
-//
-//            studentsAdapter.notifyDataSetChanged();
-//        }
-//    }
-
 }

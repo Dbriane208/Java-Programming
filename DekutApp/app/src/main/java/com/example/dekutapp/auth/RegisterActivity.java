@@ -4,14 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.dekutapp.Lecturer.LecturerDashboardActivity;
+import com.example.dekutapp.components.LecturerDashboardActivity;
 import com.example.dekutapp.R;
-import com.example.dekutapp.Student.StudentDashboardActivity;
 import com.example.dekutapp.database.LoginDB;
 import com.google.android.material.snackbar.Snackbar;
 

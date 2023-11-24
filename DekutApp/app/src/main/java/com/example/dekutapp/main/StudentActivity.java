@@ -16,9 +16,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.dekutapp.Lecturer.LecturerDashboardActivity;
+import com.example.dekutapp.components.LecturerDashboardActivity;
 import com.example.dekutapp.R;
-import com.example.dekutapp.Student.StudentDashboardActivity;
 import com.example.dekutapp.database.StudentsDB;
 
 import java.io.ByteArrayOutputStream;
