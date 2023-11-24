@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.dekutapp.Lecturer.LecturerDashboardActivity;
 import com.example.dekutapp.R;
 import com.example.dekutapp.Student.StudentDashboardActivity;
 import com.example.dekutapp.database.LoginDB;
@@ -49,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if(!checkUser){
                     boolean insert =   loginDB.insertUserData(firstname,lastname,userReg,userEmail,userPassword);
                     if(insert){
-                        Intent intent = new Intent(this, StudentDashboardActivity.class);
+                        Intent intent = new Intent(this, LecturerDashboardActivity.class);
                         startActivity(intent);
                         Snackbar.make(this.getCurrentFocus(),"Yaaay!! Registration Successful!",Snackbar.LENGTH_LONG).show();
                     } else {

@@ -26,7 +26,7 @@
         android:layout_height="55dp"
         android:autofillHints=""
         android:gravity="center"
-        android:hint="@string/email"
+        android:hint="@string/emailtxt"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="@+id/guidelineButtonTop"
         app:layout_constraintEnd_toEndOf="@id/guidelineMrgEnd"

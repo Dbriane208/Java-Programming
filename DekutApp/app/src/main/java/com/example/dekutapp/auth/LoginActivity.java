@@ -37,13 +37,13 @@ public class LoginActivity extends AppCompatActivity {
             }else{
                 if(email.matches("lec@dkut.com") && password.matches("lec@dkut")){
                     Snackbar.make(this.getCurrentFocus(),"Logging as Admin successful!",Snackbar.LENGTH_LONG).show();
-                    Intent intent = new Intent(this, LecturerDashboardActivity.class);
+                    Intent intent = new Intent(this, StudentDashboardActivity.class);
                     startActivity(intent);
                 }else{
                     boolean checkUser = loginDB.checkUserEmailAndPassword(email,password);
                     if(checkUser == true){
                         Snackbar.make(this.getCurrentFocus(),"Login Successful!",Snackbar.LENGTH_LONG).show();
-                        Intent intent = new Intent(this, StudentDashboardActivity.class);
+                        Intent intent = new Intent(this, LecturerDashboardActivity.class);
                         startActivity(intent);
                     }else{
                         Snackbar.make(this.getCurrentFocus(),"Invalid Credentials",Snackbar.LENGTH_LONG).show();

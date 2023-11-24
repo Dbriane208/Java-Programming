@@ -26,7 +26,7 @@
     <string name="phone">Phone :</string>
     <string name="phone1">0712345656</string>
     <string name="time1">0900hrs</string>
-    <string name="time">Time</string>
+    <string name="time">Time :</string>
     <string name="dep">Department :</string>
     <string name="dep1">Cs and IT</string>
     <string name="email">Email :</string>
@@ -81,4 +81,5 @@
     <string name="reg">reg no</string>
     <string name="emailReg">email</string>
     <string name="login">Login</string>
+    <string name="emailtxt">email</string>
 </resources>

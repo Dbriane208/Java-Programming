@@ -10,21 +10,22 @@ import android.widget.EditText;
 
 import com.example.dekutapp.Lecturer.LecturerDashboardActivity;
 import com.example.dekutapp.R;
+import com.example.dekutapp.Student.StudentDashboardActivity;
 import com.example.dekutapp.database.LecturersDB;
 import com.google.android.material.snackbar.Snackbar;
 
 public class LecturersActivity extends AppCompatActivity {
-    Button send = findViewById(R.id.buttonSend);
-    EditText firstName = findViewById(R.id.lecturersName);
-    EditText time = findViewById(R.id.availableTime);
-    EditText email = findViewById(R.id.email);
-    EditText department = findViewById(R.id.department);
-    LecturersDB loginDB = new LecturersDB(this);
-
-    @Override
+       @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lecturers2);
+
+           Button send = findViewById(R.id.buttonSend);
+           EditText firstName = findViewById(R.id.lecturersName);
+           EditText time = findViewById(R.id.availableTime);
+           EditText email = findViewById(R.id.email);
+           EditText department = findViewById(R.id.department);
+           LecturersDB loginDB = new LecturersDB(this);
 
         send.setOnClickListener(view -> {
             String firstname = firstName.getText().toString().trim();
@@ -35,9 +36,9 @@ public class LecturersActivity extends AppCompatActivity {
             if (firstname.isEmpty() || Time.isEmpty() || userEmail.isEmpty() || Department.isEmpty()) {
                 Snackbar.make(LecturersActivity.this.getCurrentFocus(), "Please Enter all Fields", Snackbar.LENGTH_LONG).show();
             } else {
-                boolean insert = loginDB.insertLecturersData(firstname, Time, userEmail, Department);
+                boolean insert = loginDB.insertLecturersData(firstname, Time, Department,userEmail);
                 if (insert) {
-                    Intent intent = new Intent(this, LecturerDashboardActivity.class);
+                    Intent intent = new Intent(this, StudentDashboardActivity.class);
                     startActivity(intent);
                     Snackbar.make(LecturersActivity.this.getCurrentFocus(), "Yaaay!! Registration Successful!", Snackbar.LENGTH_LONG).show();
                 } else {

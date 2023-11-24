@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.dekutapp.Lecturer.LecturerDashboardActivity;
 import com.example.dekutapp.R;
 import com.example.dekutapp.Student.StudentDashboardActivity;
 import com.example.dekutapp.database.StudentsDB;
@@ -97,7 +98,7 @@ public class StudentActivity extends AppCompatActivity {
                         if (insert) {
                             // Document inserted successfully
                             Toast.makeText(this, "Document Added Successfully", Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(this, StudentDashboardActivity.class);
+                            Intent intent = new Intent(this, LecturerDashboardActivity.class);
                             startActivity(intent);
                         } else {
                             // Failed to insert document
