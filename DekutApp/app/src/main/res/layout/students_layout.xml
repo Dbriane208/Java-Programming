@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
     android:elevation="10dp"
+    android:background="#d3d3d3"
     android:layout_margin="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -42,6 +43,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="10dp"
             android:textStyle="bold"
+            android:layout_marginStart="40dp"
             app:layout_constraintStart_toEndOf="@id/nameTxt"
            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -59,15 +61,16 @@
 
         <TextView
             android:id="@+id/course"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/course1"
-            android:layout_marginEnd="10dp"
+            android:layout_width="7dp"
+            android:layout_height="17dp"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/course1"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@id/nameTxt"
+            android:layout_marginStart="40dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/name"/>
+            app:layout_constraintStart_toEndOf="@id/nameTxt"
+            app:layout_constraintTop_toTopOf="@id/name" />
 
         <TextView
             android:id="@+id/depTxt"
@@ -88,6 +91,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="30dp"
             android:textStyle="bold"
+            android:layout_marginStart="40dp"
             app:layout_constraintStart_toEndOf="@id/nameTxt"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/course"/>
@@ -111,6 +115,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginTop="30dp"
             android:textStyle="bold"
+            android:layout_marginStart="40dp"
             app:layout_constraintStart_toEndOf="@id/nameTxt"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/department"/>
