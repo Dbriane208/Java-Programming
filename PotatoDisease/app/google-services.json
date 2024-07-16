@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550936062203",
+    "project_id": "potatodisease-6be2a",
+    "storage_bucket": "potatodisease-6be2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550936062203:android:c04e8e98a5eae329fa685e",
+        "android_client_info": {
+          "package_name": "daniel.brian.potatodisease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKd9lc0cMLtsSu75DSU-r8T3iQgckWiMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

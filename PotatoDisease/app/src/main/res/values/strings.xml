@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PotatoDisease</string>
+    <string name="signup">Sign up</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="register">Register</string>
+    <string name="password">password</string>
+    <string name="txtLogin">Go to Login</string>
+    <string name="login">Login</string>
+    <string name="txtSignup">Sign Up</string>
+    <string name="toSignup">To Sign up</string>
+</resources>
